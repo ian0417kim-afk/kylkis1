@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>박정환 학습일지</title>
+  <title>김유라 학습일지</title>
   <meta name="theme-color" content="#2C4A3E" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -444,7 +444,7 @@
 <!-- ======= HEADER ======= -->
 <header class="app-header">
   <div class="inner">
-    <h1>박정환 <span>학습일지</span></h1>
+    <h1>김유라 <span>학습일지</span></h1>
     <span class="date-badge" id="headerDate"></span>
   </div>
 </header>
@@ -747,7 +747,7 @@
     const lines = [];
 
     lines.push(`📅 날짜: ${data.date}`);
-    lines.push(`학생: 박정환\n`);
+    lines.push(`학생: 김유라\n`);
 
     lines.push('━━━━━━━━━━━━━━━━━━━━');
     lines.push('📚 학습 기록');
@@ -861,7 +861,7 @@
     btn.innerHTML = '<span>⏳</span> 전송 중...';
 
     try {
-      const subject  = `[박정환 학습일지] ${data.date}`;
+      const subject  = `[김유라 학습일지] ${data.date}`;
       const bodyText = buildEmailBody(data);
 
       // 두 수신자에게 순차 발송
